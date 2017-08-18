@@ -51,9 +51,10 @@ Create a Python script that loads the data from CSV and populates the database.
 ***Task:***
 
 ```
-The data you populated the database with is actually the revenue of Company X. Please write an SQL query that determines and shows the daily revenue of company X according to the US GAAP rules:
+The data you populated the database with is actually the revenue of Company X. 
 
-US GAAP Rules: 
+Please write an SQL query that determines and shows the daily revenue of company X according to the following rules:
+
 1. Calculate the daily revenue for 2017 (i.e. split the invoices in the corresponding days covered by the invoice);
 2. When there is no “start-date” or “end-date”, please consider the “created date” (for both cases);
 3. Status not to be considered as Revenue: “voided” and “overdue”. All others can be considered as revenue.
